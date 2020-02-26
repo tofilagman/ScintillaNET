@@ -960,7 +960,7 @@ namespace ScintillaNET
                 {
                     // http://stackoverflow.com/a/229567/2073621
                     // Synchronize access to the file across processes
-                    var guid = ((GuidAttribute)typeof(Scintilla).Assembly.GetCustomAttributes(typeof(GuidAttribute), false).GetValue(0)).Value.ToString();
+                    var guid = new Guid("f8ac48e7-9378-482d-8c7f-92c8408dd4f2").ToString(); //((GuidAttribute)typeof(Scintilla).Assembly.GetCustomAttributes(typeof(GuidAttribute), false).GetValue(0)).Value.ToString();
                     var name = string.Format(CultureInfo.InvariantCulture, "Global\\{{{0}}}", guid);
                     using (var mutex = new Mutex(false, name))
                     {
