@@ -5,6 +5,18 @@
     <RootNamespace>ScintillaNET</RootNamespace>
     <AssemblyName>ScintillaNET</AssemblyName>
     <UseWindowsForms>true</UseWindowsForms>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>ScintillaNET.Core.Unofficial</PackageId>
+    <Authors>Jacob Slusser</Authors>
+    <PackageProjectUrl>https://github.com/jacobslusser/ScintillaNET</PackageProjectUrl>
+    <Description>A Windows Forms control, wrapper, and bindings for the Scintilla text editor. for Net Core</Description>
+    <Copyright>Copyright (c) 2018, Jacob Slusser. All rights reserved.</Copyright>
+    <PackageTags>ScintillaNET Scintilla Editor</PackageTags>
+    <PackageReleaseNotes>Please visit https://github.com/jacobslusser/ScintillaNET/releases to view the release notes.</PackageReleaseNotes>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <Version>4.0.1</Version>
+    <Product>ScintillaNET.Core</Product>
+    <Company />
   </PropertyGroup>	
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
